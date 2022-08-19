@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container border p-0  mt-4">
+        <div class="heading bg-light p-4 border  ">
+            <h4>My Profile</h4>
+        </div>
+        <form class=" mt-5 mb-5 ">
+            <div class="row m-2 ">
+                <div class="col-md-6">
+                    <label for="BrowseLogo" class="form-label">Browse Logo</label>
+                    <input type="file" class="form-control " id="BrowseLogo">
+                    <small id="emailHelp" class="form-text text-muted"><i>Max file size is 1MB,Minimum dimention 330×300
+                            and
+                            suitable file are .jpg & .png
+                        </i></small>
+                </div>
+                <div class="col-md-6">
+                    <label for="BrowseCover" class="form-label">Browse Cover</label>
+                    <input type="file" class="form-control " id="BrowseCover">
+                    <small id="emailHelp" class="form-text text-muted"><i>Max file size is 1MB,Minimum dimention 330×300
+                            and
+                            suitable file are .jpg & .png
+                        </i></small>
+                </div>
+            </div>
+            <div class="row m-2 ">
+                <div class="col-md-6">
+                    <label for="companyname" class="mt-2 mb-2">Company Name</label>
+                    <input type="text" class="form-control " id="companyname" placeholder="enter company name">
+                </div>
+                <div class="col-md-6">
+                    <label for="emailAddress" class="mt-2 mb-2">Email Address</label>
+                    <input type="email" class="form-control " id="emailAddress" placeholder="name@example.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="phone" class="mt-2 mb-2">Phone</label>
+                    <!-- type of number is text becouse it takes international number-->
+                    <input type="text" name="number" class="form-control" id="phone" placeholder="Enter phone number">
+                </div>
+                <div class="col-md-6">
+                    <label for="website" class="mt-2 mb-2">Website</label>
+                    <input type="url" name="website" class="form-control" id="website" placeholder="Enter website link">
+                </div>
+                <div class="col-md-6">
+                    <label for="est.since" class="mt-2 mb-2">Est. Since</label>
+                    <input type="url" name="website" class="form-control" id="est.since" placeholder="Enter Since Date">
+                </div>
+                <div class="col-md-6">
+                    <label for="teamsize" class="mt-2 mb-2">Team size</label>
+                    <select class="form-select" aria-label="Default select example" id="teamsize">
+                        <option selected>1-100</option>
+                        <option value="2">100-200</option>
+                        <option value="3">200-500</option>
+                        <option value="3">500-1000</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="teamsize" class="mt-2 mb-2">Category</label>
+                    <select class="form-select" aria-label="Default select example" id="teamsize">
+                        <option selected>Choose Category</option>
+                        <option value="2">Accounting</option>
+                        <option value="3">Markiting</option>
+                        <option value="3">Design</option>
+                        <option value="3">Development</option>
+                        <option value="3">Engineering</option>
+                        <option value="3">Health & care</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="teamsize" class="mt-2 mb-2">Allow in Search & Listing</label>
+                    <select class="form-select" aria-label="Default select example" id="teamsize">
+                        <option selected>Yes</option>
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+                    <label for="Comments" class="mt-2 mb-2">About Company</label>
+                    <textarea name="Comments" id="Comments" cols="30" rows="5" class="form-control"
+                        placeholder="Enter your comments"></textarea>
+                </div>
+                <div class="col-md-12 mt-3">
+                    <button class="btn btn-success">save changes</button>
+
+
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+    <div class="container border p-0  mt-4">
+        <div class="heading bg-light p-4 border  ">
+            <h4>Social Network</h4>
+        </div>
+        <form class=" mt-5 mb-5">
+            <div class="row m-2 ">
+                <div class="col-md-6">
+                    <label for="Company-Facebook" class="mt-2 mb-2">Facebook</label>
+                    <input type="url" class="form-control " id="Company-Facebook" placeholder="wwww.facebook.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="Company-Twitter" class="mt-2 mb-2">twitter</label>
+                    <input type="url" class="form-control " id="Company-Twitter" placeholder="wwww.twitter.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="Company-Linkdin" class="mt-2 mb-2">linkdin</label>
+                    <input type="url" class="form-control " id="Company-Linkdin" placeholder="wwww.linkdin.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="Company-youtube" class="mt-2 mb-2">youtube</label>
+                    <input type="url" class="form-control " id="Company-youtube" placeholder="wwww.youtube.com">
+                </div>
+                <div class="col-md-12 mt-3">
+                    <button class="btn btn-success">save changes</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <div class="container border p-0  mt-4">
+        <div class="heading bg-light p-4 border  ">
+            <h4>Contact Information</h4>
+        </div>
+        <form class="mt-5 mb-5">
+            <div class="row m-2">
+                <div class="col-md-6">
+                    <label for="country" class="mt-2 mb-2">Country</label>
+                    <select class="form-select" aria-label="Default select example" id="country">
+                        <option selected>country</option>
+                        <option value="2">England</option>
+                        <option value="3">France</option>
+                        <option value="3">Canada</option>
+                        <option value="3">Germony</option>
+                        <option value="3">USA</option>
+                        <option value="3">India</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="city" class="mt-2 mb-2">City</label>
+                    <select class="form-select" aria-label="Default select example" id="city">
+                        <option selected>City</option>
+                        <option value="2">London</option>
+                        <option value="3">Paris</option>
+                        <option value="3">Toranto</option>
+                        <option value="3">Berlin</option>
+                        <option value="3">New York</option>
+                        <option value="3">Islamabad</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="address" class="mt-2 mb-2">Address</label>
+                    <input type="text" class="form-control " id="address" placeholder="Enter your address">
+                </div>
+                <div class="col-md-6">
+                    <label for="location" class="mt-2 mb-2">Location</label>
+                    <input type="text" class="form-control " id="location" placeholder="Enter your lacation/">
+                </div>
+                <div class="col-md-6">
+                    <label for="latitude" class="mt-2 mb-2">latitude</label>
+                    <input type="text" class="form-control " id="latitude" placeholder="Enter latitude">
+                </div>
+                <div class="col-md-6">
+                    <label for="langitude" class="mt-2 mb-2">Longitude</label>
+                    <input type="text" class="form-control " id="langitude" placeholder="Enter langitude">
+                </div>
+                <div class="col-md-12 mt-3">
+                    <button class="btn btn-success">Search location</button>
+                    <div class="mapouter">
+                        <div class="gmap_canvas mt-3"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=662&amp;height=403&amp;hl=en&amp;
+                     q=2880 Broadway, New York&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                                href="https://embedmapgenerator.com/">
+                                embed google maps in website</a></div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                width: 100%;
+                                height: 403px;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                width: 100%;
+                                height: 403px;
+                            }
+
+                            .gmap_iframe {
+                                height: 403px !important;
+                            }
+                        </style>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-3">
+                    <button class="btn btn-success">save changes</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
